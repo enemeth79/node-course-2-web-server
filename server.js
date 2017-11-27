@@ -45,7 +45,7 @@ app.get('/',
 
   res.render('home.hbs',
     {
-      pageTitle: 'Home Page',
+      pageTitle: 'Home',
       welcomeMessage: 'Welcome here'
       // currentYear: new Date().getFullYear()
     }
@@ -58,7 +58,7 @@ app.get('/about',
   // res.send('About page.');
   res.render('about.hbs',
     {
-      pageTitle: 'About Page'
+      pageTitle: 'About'
       // currentYear: new Date().getFullYear()
     }
   );
@@ -78,7 +78,7 @@ app.get('/projects',
   // res.send('About page.');
   res.render('projects.hbs',
     {
-      pageTitle: 'Portfolio Page',
+      pageTitle: 'Portfolio',
       description: "My portfolio is listed here."
     }
   );
